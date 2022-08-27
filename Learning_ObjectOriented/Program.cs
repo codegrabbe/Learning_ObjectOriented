@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿public class Program
+{
+    public static void Main()
+    {
+        Console.WriteLine("Introduction to Object Oriented Programming");
+        Console.ReadLine();//Hold the console
+    }
+}
+
