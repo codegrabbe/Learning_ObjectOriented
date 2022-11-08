@@ -1,12 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Learning_ObjectOriented.Encapsulation
+﻿namespace Learning_ObjectOriented.Encapsulation
 {
-    internal class Encapsulation
+    /// <summary>
+    /// Method for Encapsulation
+    /// </summary>
+    public class Encapsulation
     {
+        string Name = string.Empty;
+        /// <summary>
+        /// Parameteric Constructor for Encapsulation
+        /// </summary>
+        /// <param name="name"></param>
+        public Encapsulation(string name)
+        {
+            Name = name;
+        }
+        /// <summary>
+        /// Method to Print the name with the initialized string in Parameteric constructor
+        /// </summary>
+        public void PrintName()
+        {
+            Console.WriteLine(Name);
+        }
     }
 }
